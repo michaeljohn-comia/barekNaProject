@@ -89,12 +89,19 @@ function displayName(){
     currentIndex = (currentIndex + 1) % playerNames.length;
 }
 
-
+// buttons sa main4 / mismong game
 var bumarekBtn = document.querySelector("#bumarek");
 var displayRandomDare = document.querySelector(".random-questionDare");
+var mahinaBtn = document.querySelector("#mahina");
 
 bumarekBtn.addEventListener("click", function () {
     var randomOye = randomQuestion(allQuestion);
     displayRandomDare.innerHTML = randomOye;
     displayName();
 }); 
+
+mahinaBtn.addEventListener("click", function(){
+    var randomOye = randomQuestion(allQuestion);
+    displayRandomDare.innerHTML = randomOye;
+    displayName();
+})
