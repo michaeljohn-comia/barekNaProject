@@ -303,9 +303,7 @@
     /* footer designs */
     .container-footer {
         color: #FFFFFF;
-        position: fixed;
         width: 100%;
-        bottom: 0;
         display: flex;
         gap: 1rem;
         padding: 1rem;
@@ -626,9 +624,7 @@
 /* footer designs */
 .container-footer {
     color: #FFFFFF;
-    position: fixed;
     width: 100%;
-    bottom: 0;
     display: flex;
     gap: 1rem;
     padding: 1rem;
