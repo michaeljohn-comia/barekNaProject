@@ -320,3 +320,312 @@
         height: 25px;
     }
 }
+.container-header {
+    padding: 1rem;
+    display: flex;
+    background-color: #F2CD60;
+    height: 10vh;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+#header-logo {
+    width: 100px;
+    height: auto;
+    padding: 0.5rem;
+}
+
+.wrapper-help {
+    background-color: grey;
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+.container-mainpage1 {
+    height: 80vh;
+    background-color: #F9ECCD;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.container-page1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.wrapper-title {
+    font-weight: bold;
+    font-size: 120px;
+}
+
+.wrapper-title>p {
+    text-align: center;
+}
+
+.wrapper-subtitle {
+    font-weight: bold;
+}
+
+.wrapper-startBtn {
+    border: solid #F2CD60;
+    border-radius: 40px;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.wrapper-startBtn:hover {
+    background-color: #F2CD60;
+}
+
+.wrapper-startBtn:active {
+    background-color: #F2CD60;
+}
+
+/* main 2 */
+
+.container-mainpage2 {
+    height: 80vh;
+    background-color: #F9ECCD;
+    padding: 1rem;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.wrapper-players {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.player-names {
+    height: 40vh;
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 1rem;
+    overflow: auto;
+}
+
+.wrapper-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.button-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.button-section>button {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 15px;
+    border: solid #F2CD60;
+    background-color: transparent;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.wrapper-input>input {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    width: 280px;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 10px;
+}
+
+.button-section>button:hover {
+    background-color: #F2CD60;
+}
+
+.button-section>button:active {
+    background-color: #F2CD60;
+}
+
+/* Main page 3 */
+
+.container-mainpage3 {
+    height: 80vh;
+    background-color: #F9ECCD;
+    padding: 1rem;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.wrapper-dare {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.dare-question {
+    height: 40vh;
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 1rem;
+    overflow: auto;
+}
+
+.wrapper-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.button-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.button-section>button {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 15px;
+    border: solid #F2CD60;
+    background-color: transparent;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.wrapper-input>input {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    width: 280px;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 10px;
+}
+
+.button-section>button:hover {
+    background-color: #F2CD60;
+}
+
+.button-section>button:active {
+    background-color: #F2CD60;
+}
+
+/* Container - Main page 4 */
+.container-mainpage4 {
+    height: 80vh;
+    background-color: #F9ECCD;
+    padding: 1rem;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.wrapper-mainsection {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+}
+
+.random-questionDare {
+    background-color: #7C7C7C;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+    height: 40vh;
+    padding: 1rem;
+    border-radius: 15px;
+    width: 300px;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#player-taya {
+    text-align: center;
+}
+
+.wrapper-btnMain {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.wrapper-btnMain>button {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: bold;
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: transparent;
+    transition: all 0.2s;
+}
+
+#mahina {
+    border: solid #7C7C7C;
+}
+
+#bumarek {
+    border: solid #F2CD60;
+}
+
+#mahina:hover {
+    background-color: #7C7C7C;
+    color: white;
+}
+
+#bumarek:hover {
+    background-color: #F2CD60;
+}
+
+
+
+
+
+/* footer designs */
+.container-footer {
+    color: #FFFFFF;
+    /* position: fixed; */
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #7C7C7C;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+}
+
+.container-footer>p {
+    font-size: 12px;
+}
+
+
+
+
+.wrapper-links {}
+
+.footer-img {
+    height: 25px;
+}
