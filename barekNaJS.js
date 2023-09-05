@@ -37,10 +37,10 @@ BtnAddPlayer.addEventListener("click", function () {
 
 var dareQuestion = [];
 var defaultDareQuestion = [
-    "dashjdfbjahsd",
-    "lamaw lamaw lamaw lamaw",
-    "kalabaw labaw kalabaw",
-    "lorem30 hahahah",
+    "Testing na tanong 1",
+    "Basta tanong to 2",
+    "Ikatlong tanong hahah barek na aba",
+    "ewan ahhahahahahah",
 ]
 var allQuestion = defaultDareQuestion.concat(dareQuestion)
 console.log(allQuestion);
@@ -104,4 +104,27 @@ mahinaBtn.addEventListener("click", function(){
     var randomOye = randomQuestion(allQuestion);
     displayRandomDare.innerHTML = randomOye;
     displayName();
+})
+
+// page actions
+var page1StartBtn = document.querySelector(".wrapper-startBtn");
+var page2StartBtn = document.querySelector("#BtnGoName");
+var page3StartBtn = document.querySelector("#BtnGoDare");
+
+var page1Screen = document.querySelector(".container-mainpage1");
+var page2Screen = document.querySelector(".container-mainpage2");
+var page3Screen = document.querySelector(".container-mainpage3");
+var page4Screen = document.querySelector(".container-mainpage4");
+
+page1StartBtn.addEventListener("click", function(){
+    page1Screen.style.display = "none";
+    page2Screen.style.display = "block";
+})
+page2StartBtn.addEventListener("click", function(){
+    page2Screen.style.display = "none";
+    page3Screen.style.display = "block";
+})
+page3StartBtn.addEventListener("click", function(){
+    page3Screen.style.display = "none";
+    page4Screen.style.display = "flex";
 })

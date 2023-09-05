@@ -49,7 +49,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 1rem;
+        gap: 4rem;
     }
 
     .wrapper-title {
@@ -84,6 +84,7 @@
     /* main 2 */
 
     .container-mainpage2 {
+        display: none;
         height: 80vh;
         background-color: #F9ECCD;
         padding: 1rem;
@@ -104,6 +105,9 @@
         background-color: #FFFFFF;
         padding: 1rem;
         overflow: auto;
+        font-weight: bold;
+        font-size: 35px;
+        text-align: center;
     }
 
     .wrapper-input {
@@ -123,7 +127,7 @@
     .button-section>button {
         font-family: 'Barlow Semi Condensed', sans-serif;
         font-weight: bold;
-        padding: 0.5rem;
+        padding: 0.5rem 2rem;
         border-radius: 15px;
         border: solid #F2CD60;
         background-color: transparent;
@@ -152,6 +156,7 @@
     /* Main page 3 */
 
     .container-mainpage3 {
+        display: none;
         height: 80vh;
         background-color: #F9ECCD;
         padding: 1rem;
@@ -172,6 +177,9 @@
         background-color: #FFFFFF;
         padding: 1rem;
         overflow: auto;
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
     }
 
     .wrapper-input {
@@ -191,7 +199,7 @@
     .button-section>button {
         font-family: 'Barlow Semi Condensed', sans-serif;
         font-weight: bold;
-        padding: 0.5rem;
+        padding: 0.5rem 2rem;
         border-radius: 15px;
         border: solid #F2CD60;
         background-color: transparent;
@@ -223,7 +231,7 @@
         background-color: #F9ECCD;
         padding: 1rem;
         font-family: 'Barlow Semi Condensed', sans-serif;
-        display: flex;
+        display: none;
         flex-direction: column;
         justify-content: space-evenly;
     }
@@ -253,6 +261,7 @@
 
     #player-taya {
         text-align: center;
+        font-size: 45px;
     }
 
     .wrapper-btnMain {
@@ -294,7 +303,7 @@
     /* footer designs */
     .container-footer {
         color: #FFFFFF;
-        /* position: fixed; */
+        position: fixed;
         width: 100%;
         bottom: 0;
         display: flex;
@@ -314,7 +323,10 @@
 
 
 
-    .wrapper-links {}
+    .wrapper-links {
+        display: flex;
+        gap: 1rem;
+    }
 
     .footer-img {
         height: 25px;
@@ -360,7 +372,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
+    gap: 4rem;
 }
 
 .wrapper-title {
@@ -395,6 +407,7 @@
 /* main 2 */
 
 .container-mainpage2 {
+    display: none;
     height: 80vh;
     background-color: #F9ECCD;
     padding: 1rem;
@@ -415,6 +428,9 @@
     background-color: #FFFFFF;
     padding: 1rem;
     overflow: auto;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
 }
 
 .wrapper-input {
@@ -434,7 +450,7 @@
 .button-section>button {
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-weight: bold;
-    padding: 0.5rem;
+    padding: 0.5rem 2rem;
     border-radius: 15px;
     border: solid #F2CD60;
     background-color: transparent;
@@ -463,6 +479,7 @@
 /* Main page 3 */
 
 .container-mainpage3 {
+    display: none;
     height: 80vh;
     background-color: #F9ECCD;
     padding: 1rem;
@@ -483,6 +500,9 @@
     background-color: #FFFFFF;
     padding: 1rem;
     overflow: auto;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
 }
 
 .wrapper-input {
@@ -502,7 +522,7 @@
 .button-section>button {
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-weight: bold;
-    padding: 0.5rem;
+    padding: 0.5rem 2rem;
     border-radius: 15px;
     border: solid #F2CD60;
     background-color: transparent;
@@ -534,7 +554,7 @@
     background-color: #F9ECCD;
     padding: 1rem;
     font-family: 'Barlow Semi Condensed', sans-serif;
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: space-evenly;
 }
@@ -564,6 +584,7 @@
 
 #player-taya {
     text-align: center;
+    font-size: 45px;
 }
 
 .wrapper-btnMain {
@@ -605,7 +626,7 @@
 /* footer designs */
 .container-footer {
     color: #FFFFFF;
-    /* position: fixed; */
+    position: fixed;
     width: 100%;
     bottom: 0;
     display: flex;
@@ -625,8 +646,11 @@
 
 
 
-.wrapper-links {}
+.wrapper-links {
+    display: flex;
+    gap: 1rem;
+}
 
 .footer-img {
-    height: 25px;
+    height: 35px;
 }
